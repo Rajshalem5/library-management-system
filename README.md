@@ -54,21 +54,3 @@ The goal of the venture is to give ease in plausibility to both staff and client
 ![9](https://user-images.githubusercontent.com/64021315/129182872-72b74c26-61cf-4afd-b0ef-8af8057d2f03.PNG)
 
 
-
-### USER PRIVILAGES & ROLE GRANTS:
-
-![Create user proof](https://user-images.githubusercontent.com/64021315/129183976-eb1d5c91-6557-478f-aa4d-21686ee225be.PNG)
-
-![user proof 2](https://user-images.githubusercontent.com/64021315/129184019-503f1406-d4ec-4f36-8f79-4fb9e56053d7.png)
-
-![grantPrev](https://user-images.githubusercontent.com/64021315/129184061-0255ac11-0251-4ccb-b524-dc1deb0b53c3.PNG)
-
-![grantstorole(Owner)](https://user-images.githubusercontent.com/64021315/129184071-5e86773b-e0a6-48b0-ae29-a5293b371179.PNG)
-
-![roletoFashad](https://user-images.githubusercontent.com/64021315/129184082-c01b0559-89a4-4e9b-a900-a893e5a9982e.PNG)
-
-![schemaInUser](https://user-images.githubusercontent.com/64021315/129184124-d954cbae-31c2-4cd0-a6e2-450defbb7619.png)
-
-### NOTE:
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) </br>
-The brief description of Project is presented in Project Report ```.pdf``` and Visually aided in ```.ppt```
