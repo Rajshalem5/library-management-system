@@ -8,7 +8,7 @@ from staff
 left join authentication_system 
 on staff.login_id = authentication_system.login_id;
 
-select book.title,book.publisher_id,issue_status.staus 
+select book.title,book.publisher_id,issue_status.status
 from book 
 right join  issue_status 
 on book.book_id = issue_status.book_id;
