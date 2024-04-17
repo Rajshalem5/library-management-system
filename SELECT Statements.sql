@@ -5,7 +5,7 @@ FROM authentication_system;
 
 DESC author;
 
-SELECT title, author_name AS Author 
+SELECT author_id, author_name AS Author 
 FROM author;
 
 SELECT * FROM book; 
