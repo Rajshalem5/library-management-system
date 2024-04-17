@@ -16,3 +16,7 @@ SELECT book_issued,name,reg_date
 FROM customer 
 GROUP BY customer_id,branch_id 
 HAVING MAX(customer_id)>5;
+
+SELECT book_issued,name,count(reg_date) 
+FROM customer 
+GROUP BY customer_id,branch_id;
