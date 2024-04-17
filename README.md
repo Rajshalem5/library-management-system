@@ -6,11 +6,10 @@
 
 ### Project Members:
 #### <ul><li><a href="https://github.com/Rajshalem">shalemraj</a></li></ul>
-#### GOPI
-#### VAMSI
-#### BHAVYA SREE
-#### CHANDRA MOULI
-
+##### <ul> GOPI </ul>
+##### <ul> Vamsi </ul>
+##### <ul> Bhavya Sree </ul>
+##### <ul> Chandramouli </ul>
 
 ### Introduction:
 Our system is based on library management and book-keeping system. This project “Library Management System” contains data relevant to the books present in the library, which can be lent to the customers and details maintained by the staff. Along with the management of the system, we are also maintaining the records of issue statuses and publishers of the books.
