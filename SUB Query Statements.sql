@@ -4,7 +4,7 @@ WHERE publish_year
 IN (
 SELECT publish_year 
 FROM publisher 
-WHERE retail_price > 500
+WHERE retail_price > 800
 );
 
 SELECT book_issued,name,reg_date 
@@ -21,7 +21,7 @@ FROM publisher
 WHERE publish_year IN (
 SELECT publish_year 
 FROM publisher 
-WHERE publish_year BETWEEN 1990 AND 2010
+WHERE publish_year BETWEEN 2010 AND 2019
 );
 
 SELECT * 
@@ -30,7 +30,7 @@ WHERE publish_year
 IN (
 SELECT publish_year 
 FROM publisher 
-WHERE publish_year > 2000
+WHERE publish_year > 2015
 );
 
 SELECT * 
@@ -48,5 +48,5 @@ WHERE branch_id
 IN (
 SELECT branch_id 
 FROM branch 
-WHERE branch_id=265
+WHERE branch_id=7
 );
