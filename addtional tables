@@ -1,0 +1,55 @@
+//LIBRARY CARD
+
+CREATE TABLE Review (
+    review_id INT NOT NULL AUTO_INCREMENT,
+    book_id INT NOT NULL,
+    customer_id INT NOT NULL,
+    rating INT NOT NULL,
+    review_text TEXT,
+    review_date DATE NOT NULL,
+    PRIMARY KEY (review_id),
+    FOREIGN KEY (book_id) REFERENCES Book(book_id),
+    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
+);
+
+//REVIEW
+CREATE TABLE Review (
+    review_id INT NOT NULL AUTO_INCREMENT,
+    book_id INT NOT NULL,
+    customer_id INT NOT NULL,
+    rating INT NOT NULL,
+    review_text TEXT,
+    review_date DATE NOT NULL,
+    PRIMARY KEY (review_id),
+    FOREIGN KEY (book_id) REFERENCES Book(book_id),
+    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
+);
+
+// SUBSCRIPTION TABLES
+
+CREATE TABLE Subscription (
+    subscription_id INT NOT NULL AUTO_INCREMENT,
+    customer_id INT NOT NULL,
+    subscription_type VARCHAR(255) NOT NULL,
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    PRIMARY KEY (subscription_id),
+    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id)
+);
+
+//FINES TABLES
+CREATE TABLE Fines (
+    fine_id INT NOT NULL AUTO_INCREMENT,
+    customer_id INT NOT NULL,
+    book_id INT NOT NULL,
+    issue_id INT NOT NULL,
+    fine_amount DECIMAL(10,2) NOT NULL,
+    due_date DATE NOT NULL,
+    paid_date DATE,
+    PRIMARY KEY (fine_id),
+    FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
+    FOREIGN KEY (book_id) REFERENCES Book(book_id),
+    FOREIGN KEY (issue_id) REFERENCES Issue_Status(issue_id)
+);
+
+
